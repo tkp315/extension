@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Translator</title>
+    <link rel="stylesheet" href="../css/popup.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-wrapper">
+            <h1 class="title">Select Languages</h1>
+            <div class="dropdown">
+                <select id="language-select">
+                    <option value="" disabled selected>Select Language</option>
+                    <!-- Languages will be populated here dynamically -->
+                </select>
+            </div>
+            <div class="dropdown">
+                <select id="friend-language-select">
+                    <option value="" disabled selected>Select Friend Language</option>
+                    <!-- Friend Languages will be populated here dynamically -->
+                </select>
+            </div>
+            <div>
+                <button class="save-button" id="save-button">Save</button>
+            </div>
+        </div>
+    </div>
+    <script src="../js/popup.js"></script>
+</body>
+</html>
